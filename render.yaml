@@ -11,7 +11,7 @@ services:
           name: store-app-db
           property: connectionString
       - key: RAILS_MASTER_KEY
-        sync: false
+        sync: true
       - key: WEB_CONCURRENCY
         value: 2
 databases:
